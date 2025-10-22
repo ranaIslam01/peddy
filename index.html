@@ -46,6 +46,7 @@
     </style>
   </head>
   <body class="lato-regular">
+    <!-- nav start  -->
     <nav
       id="navbar"
       class="flex justify-between bg-white items-center py-6 md:py-6 shadow-lg px-[10%] fixed top-0 left-0 right-0 z-10"
@@ -86,7 +87,9 @@
         <i class="fa-solid fa-xmark text-2xl text-[#131313]"></i>
       </div>
     </nav>
+    <!-- nav end  -->
 
+    <!-- header start  -->
     <header class="mt-36 -z-20 relative">
       <div
         class="flex justify-center items-center flex-col max-w-3xl md:px-0 px-8 md:py-0 py-2 md:mx-auto text-center gap-4"
@@ -114,6 +117,8 @@
         <img src="/Images/2151806337 1.png" alt="Dog" />
       </div>
     </header>
+    <!-- header end  -->
+
 
     <!-- Adopt  Your  Best Friend Start -->
     <section>
@@ -173,7 +178,7 @@
         </button>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-6 items-center px-[10%] pb-10">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-center px-[10%] pb-10">
         <!-- 1 -->
         <div class="border border-gray-200 rounded-lg shadow-sm p-4 flex flex-col gap-2">
           <img src="/Images/Rectangle 1.png" alt="#" />
@@ -251,6 +256,40 @@
       </div>
     </section>
     <!-- Best Deal For you end -->
+
+    <footer>
+      <div class="flex justify-between px-[10%] py-[6%] bg-black text-white ">
+        <div class="flex flex-col gap-3">
+          <div class="flex gap-2">
+              <img src="/Images/Group 1.png" alt="logo">
+              <h1 class="text-xl font-extrabold">Peddy</h1>
+          </div>
+          <p class="cursor-pointer hover:underline text-base md:textlg text-gray-300">Location: av. Washington 165, NY CA 54003</p>
+          <p class="cursor-pointer hover:underline text-base md:textlg text-gray-300">Phone: +31 85 964 47 25</p>
+          <p class="cursor-pointer hover:underline text-base md:textlg text-gray-300">Email: info@yourdomain.com</p>
+          <p class="cursor-pointer hover:underline text-base md:textlg text-gray-300">Openings hours: 9.00 AM - 5.00 PM</p>
+          <div class="flex gap-4 pt-2">
+            <img class="h-6 cursor-pointer" src="/Images/Facebook.png" alt="Facebook">
+            <img class="h-6 cursor-pointer" src="/Images/x.png" alt="Twitter">
+            <img class="h-6 cursor-pointer" src="/Images/youtube.png" alt="Youtube">
+            <img class="h-6 cursor-pointer" src="/Images/instagram.png" alt="Instagram">
+          </div>
+        </div>
+        <div class="list-none flex flex-col gap-3">
+          <h1 class="text-base md:text-lg font-bold">Useful Links</h1>
+          <li class="text-gray-400 cursor-pointer hover:underline md:text-base text-sm"><a href="/">Home</a></li>
+          <li class="text-gray-400 cursor-pointer hover:underline md:text-base text-sm"><a href="/about">About Us</a></li>
+          <li class="text-gray-400 cursor-pointer hover:underline md:text-base text-sm"><a href="/animals">Animals</a></li>
+          <li class="text-gray-400 cursor-pointer hover:underline md:text-base text-sm"><a href="/foundation">Foundation</a></li>
+          <li class="text-gray-400 cursor-pointer hover:underline md:text-base text-sm"><a href="/contact">Contact</a></li>
+        </div>
+        <div class="flex flex-col gap-3">
+          <h1 class="text-base md:text-lg font-bold">Drop a Message</h1>
+          <input class="placeholder-gray-400 bg-gray-800 pl-4  py-3 rounded-lg" type="text" placeholder="Enter your email">
+          <button class="bg-[#0E7A81] text-white font-bold py-3 rounded-lg">Subscribe</button>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="script.js"></script>
 </html>
